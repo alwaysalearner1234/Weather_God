@@ -1,0 +1,12 @@
+{
+  "name": "tabletop-weather-god-sim-core",
+  "version": "0.1.0",
+  "description": "Person C deliverable: deterministic, engine-free simulation core (needs, decisions, memory, chronicle, persistence). No Three.js / browser imports.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "balance": "node scripts/balance.js",
+    "scenarios": "node scripts/scenarios.js"
+  },
+  "license": "UNLICENSED"
+}

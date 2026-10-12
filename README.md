@@ -1,8 +1,17 @@
 # Tabletop Weather God
 
 Seated, hands-only god-game for Quest. One session = one in-game day (5–8 min).
-Lidiya owns: villager AI (needs / memory / decisions), dialogue + chronicle,
-save + time-away. Game dev owns: hands, island, builds.
+
+## Two tracks in this repo
+
+- **`sim-core/` (current, IWSDK direction)** — Person C deliverable: deterministic,
+  engine-free JS simulation (4 needs, trust, utility decisions, bounded memory,
+  event-only chronicle, versioned saves, positive-only time-away). `npm test`
+  runs 18 headless tests, all green. This is the authoritative game logic that
+  the WebXR build will adapt.
+- **`Assets/Scripts/VillagerAI/` (earlier Unity/C# track, superseded)** — kept
+  for history. Was built 4–5 Oct 2026 with its own Python balance sim passing
+  on 5 seeds. Do not extend; the team decision (D-01) moved to IWSDK/WebXR.
 
 ## Week 1 done when
 
